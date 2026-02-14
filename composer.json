@@ -1,0 +1,39 @@
+{
+    "name": "mrzeroc/ovo-api",
+    "description": "Unofficial OVO ID API wrapper (community-maintained fork)",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "ovo",
+        "ovoid",
+        "api",
+        "unofficial",
+        "indonesia"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mrzeroc\\OvoApi\\": "src/",
+            "Namdevel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mrzeroc"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "replace": {
+        "namdevel/ovoid-api": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mrzeroc\\OvoApi\\Laravel\\OvoidTesterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
