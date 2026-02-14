@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-02-14
+
+### Added
+- Package-local release helper script: `scripts/release.sh`.
+
+### Changed
+- Release checklist now points to direct package script and project migration script.
+
 ## [1.0.0] - 2026-02-14
 
 ### Added

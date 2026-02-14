@@ -1,5 +1,11 @@
 # Release Checklist
 
+Shortcut command (from project root):
+
+```bash
+./packages/mrzeroc/ovo-api/scripts/release.sh v1.0.1
+```
+
 ## 1) Prepare local repository
 
 - [ ] Ensure package files are committed
@@ -40,4 +46,4 @@
 
 - [ ] Remove local `path` repository from project composer.json
 - [ ] Set requirement to stable tag (`^1.0`)
-- [ ] Run `composer update mrzeroc/ovo-api -W`
+- [ ] Run `./scripts/switch-to-packagist-ovoid.sh --apply`

@@ -92,6 +92,12 @@ Jadi migrasi dari package lama bisa langsung dengan perubahan minimal.
 
 ## Publish ke Packagist
 
+Shortcut untuk maintainer (dari root repo package):
+
+```bash
+./scripts/release.sh v1.0.1
+```
+
 1. Push folder package ini ke repo GitHub terpisah, misal: `https://github.com/mrzeroc/ovo-api`.
 2. Pastikan branch utama `main` berisi `composer.json` package ini.
 3. Login ke Packagist lalu submit URL repo GitHub.
