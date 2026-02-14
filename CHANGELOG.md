@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2026-02-14
+
+### Changed
+- Release documentation now points to active GitHub repository `mrzerocrack/ovoapi`.
+
 ## [1.0.3] - 2026-02-14
 
 ### Changed

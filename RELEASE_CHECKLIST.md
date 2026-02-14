@@ -3,7 +3,7 @@
 Shortcut command (from project root):
 
 ```bash
-./packages/mrzeroc/ovo-api/scripts/release.sh v1.0.3
+./packages/mrzeroc/ovo-api/scripts/release.sh v1.0.4
 ```
 
 ## 1) Prepare local repository
@@ -18,9 +18,9 @@ Shortcut command (from project root):
 
 ## 2) Push to GitHub
 
-- [ ] Create repository: `mrzeroc/ovo-api`
+- [ ] Create repository: `mrzerocrack/ovoapi`
 - [ ] Add remote:
-  - `git remote add origin git@github.com:mrzeroc/ovo-api.git`
+  - `git remote add origin git@github.com:mrzerocrack/ovoapi.git`
 - [ ] Push default branch:
   - `git push -u origin main`
 - [ ] Push tags:

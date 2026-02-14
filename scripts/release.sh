@@ -2,7 +2,7 @@
 set -euo pipefail
 
 PKG_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-VERSION="${1:-v1.0.3}"
+VERSION="${1:-v1.0.4}"
 
 cd "$PKG_DIR"
 
@@ -33,6 +33,6 @@ cat <<'EOF'
 Selesai push.
 Lanjutkan publish di Packagist:
 1) Login ke https://packagist.org/packages/submit
-2) Submit URL repo GitHub (contoh: https://github.com/mrzeroc/ovo-api)
+2) Submit URL repo GitHub (contoh: https://github.com/mrzerocrack/ovoapi)
 3) Tunggu sinkronisasi sampai package live
 EOF

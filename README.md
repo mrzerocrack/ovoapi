@@ -95,17 +95,17 @@ Jadi migrasi dari package lama bisa langsung dengan perubahan minimal.
 Shortcut untuk maintainer (dari root repo package):
 
 ```bash
-./scripts/release.sh v1.0.3
+./scripts/release.sh v1.0.4
 ```
 
-1. Push folder package ini ke repo GitHub terpisah, misal: `https://github.com/mrzeroc/ovo-api`.
+1. Push folder package ini ke repo GitHub terpisah, misal: `https://github.com/mrzerocrack/ovoapi`.
 2. Pastikan branch utama `main` berisi `composer.json` package ini.
 3. Login ke Packagist lalu submit URL repo GitHub.
 4. Buat tag release untuk versi stabil, contoh:
 
 ```bash
-git tag v1.0.3
-git push origin v1.0.3
+git tag v1.0.4
+git push origin v1.0.4
 ```
 
 5. Setelah sinkron di Packagist, install stabil:
