@@ -95,7 +95,7 @@ Jadi migrasi dari package lama bisa langsung dengan perubahan minimal.
 Shortcut untuk maintainer (dari root repo package):
 
 ```bash
-./scripts/release.sh v1.0.2
+./scripts/release.sh v1.0.3
 ```
 
 1. Push folder package ini ke repo GitHub terpisah, misal: `https://github.com/mrzeroc/ovo-api`.
@@ -104,8 +104,8 @@ Shortcut untuk maintainer (dari root repo package):
 4. Buat tag release untuk versi stabil, contoh:
 
 ```bash
-git tag v1.0.2
-git push origin v1.0.2
+git tag v1.0.3
+git push origin v1.0.3
 ```
 
 5. Setelah sinkron di Packagist, install stabil:

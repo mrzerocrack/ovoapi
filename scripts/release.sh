@@ -2,7 +2,7 @@
 set -euo pipefail
 
 PKG_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-VERSION="${1:-v1.0.0}"
+VERSION="${1:-v1.0.3}"
 
 cd "$PKG_DIR"
 

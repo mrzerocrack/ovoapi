@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2026-02-14
+
+### Changed
+- Release helper default tag updated to `v1.0.3` for consistent first-run behavior.
+
 ## [1.0.2] - 2026-02-14
 
 ### Changed

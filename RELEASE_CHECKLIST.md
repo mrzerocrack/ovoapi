@@ -3,7 +3,7 @@
 Shortcut command (from project root):
 
 ```bash
-./packages/mrzeroc/ovo-api/scripts/release.sh v1.0.2
+./packages/mrzeroc/ovo-api/scripts/release.sh v1.0.3
 ```
 
 ## 1) Prepare local repository
